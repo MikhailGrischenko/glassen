@@ -1,0 +1,32 @@
+.request-setting {
+
+  &__params-list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  &__params-item {
+    margin: 0.6rem 0 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__child-list {
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 0.6rem;
+  }
+
+  &__child-item {
+    margin: 0.4rem 0 0.4rem 0;
+  }
+
+  &__button-add {
+    margin-left: 1rem;
+  }
+
+  &__button-remove {
+    margin-right: 1rem;
+  }
+}

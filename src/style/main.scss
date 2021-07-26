@@ -1,0 +1,16 @@
+// Fonts
+@import "./fonts";
+
+// Variables
+@import "./variables/colors";
+
+// Components
+@import "./components/request-list";
+@import "./components/request-setting";
+
+body {
+  margin: 2rem;
+  background: $background-base;
+  min-height: 100vh;
+  color: $font-color-normal;
+}
